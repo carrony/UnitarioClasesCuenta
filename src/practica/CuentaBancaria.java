@@ -80,19 +80,6 @@ public class CuentaBancaria {
         return saldo;
     }
 
-    public int movimientosValidos(int[] importes) {
-        if (importes == null) {
-            return 0;
-        }
-        int contador = 0;
-        for (int importe : importes) {
-            if (importe > 0) {
-                contador++;
-            }
-        }
-        return contador;
-    }
-
     public boolean bloquearSiSaldoCero() {
         if (saldo == 0) {
             bloqueada = true;
