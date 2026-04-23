@@ -7,7 +7,7 @@ public class Producto {
 
     public Producto(String nombre, double precio, int unidades) {
         this.nombre = nombre;
-        this.precio = precio;
+        this.precio = precio; // setPrecio(precio);
         this.unidades = unidades;
     }
 
