@@ -1,5 +1,6 @@
 package practica;
 
+// hacer test unitarios
 public class Pedido {
     private int numeroPedido;
     private String cliente;
